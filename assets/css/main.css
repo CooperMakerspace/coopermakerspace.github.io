@@ -858,6 +858,13 @@ section .headline
 /** 7. Section --> About
 *******************************************************************/
 
+#about .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
 #about .subline
 {
     max-width: 77%;
@@ -924,7 +931,7 @@ section .headline
     width: 3em;
     margin-right: .8em;
 
-    text-align: center;
+    text-align: ;
     vertical-align: middle;
 
     border-radius: 100%;
@@ -968,7 +975,7 @@ section .headline
 
     margin-top: 6rem;
 
-    text-align: center;
+    text-align: ;
 }
 
 #work .work-carousel .owl-dots .owl-dot
